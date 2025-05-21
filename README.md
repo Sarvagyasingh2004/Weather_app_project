@@ -1,31 +1,54 @@
+# 🌤️ React Weather App
 
-- # 🎵 iPhone Music Player
-
-A simple and sleek iPhone-style music player built using HTML, CSS, and JavaScript. This front-end project replicates a music player interface with blur background effects, responsive design, and essential playback controls.
+A responsive and interactive weather application built with **React**. Users can enter a city name to get real-time weather information using the OpenWeatherMap API.
 
 ## 🚀 Features
 
-- 🎧 Play, pause, next, and previous song controls
-- 🎼 Dynamic song info and thumbnail display
-- 📈 Interactive progress bar with hover animation
-- 🌁 Blur background effect for visual appeal
-- 📱 Fully responsive design for various screen sizes
+- 🔍 Search for current weather by city
+- 🌡️ Displays temperature, humidity, wind speed, cloudiness, and weather description
+- 🌦️ Dynamic weather icon based on conditions
+- 🧭 Clean UI with styled components
+- ⚛️ Built with React functional components and hooks
 
-## 🛠️ Technologies Used
+## 🖼️ Demo
 
-- **HTML5** – Markup structure
-- **CSS3** – Styling, layout, and responsive design
-- **JavaScript (ES6)** – Audio control functionality
-- **Ionicons** – For playback icons
-- **Media Queries** – Responsive behavior
+> Add a live demo link or screenshots/gif here
 
-## 📁 Project Structure
-📁 project-root
-├── index.html # Main player layout
-├── style.css # Styles for player UI and responsiveness
-├── script.js # Playback and interaction logic
-└── images/
-└── song1.jpg # Default blurred background image
+## 🧪 Tech Stack
 
-<img width="720" alt="Screenshot 2025-05-21 at 9 21 02 PM" src="https://github.com/user-attachments/assets/f28dc6c2-be34-4160-9d78-9197e3c4e620" />
-<img width="576" alt="Screenshot 2025-05-21 at 9 21 16 PM" src="https://github.com/user-attachments/assets/c9a0318b-1ca2-4577-b85b-4a908024e00b" />
+- **React** (with hooks: `useState`, `useRef`)
+- **CSS Modules** for scoped styling
+- **OpenWeatherMap API** for real-time weather data
+- **React Icons** for modern UI icons
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/react-weather-app.git
+cd react-weather-app
+
+npm install
+
+Run the app:
+npm run dev
+
+
+Project Structure
+src/
+├── App.jsx
+├── Weather.jsx
+├── Weather.module.css
+├── WeatherIcon.jsx
+├── main.jsx
+└── ...
+
+
+
+<img width="580" alt="Screenshot 2025-05-21 at 9 31 48 PM" src="https://github.com/user-attachments/assets/c8d6fa65-c3f2-422d-a386-9dd8f2f1cbfc" />
+<img width="483" alt="Screenshot 2025-05-21 at 9 32 19 PM" src="https://github.com/user-attachments/assets/ae362f5e-6f36-426c-8c57-a1c22aa71d9d" />
