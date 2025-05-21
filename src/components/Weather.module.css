@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherBlock {
+    height: 600px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    border-radius: 10px;
+}
+
+.cityInput {
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.inputName {
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px 50px 15px 10px;
+    font-size: 15px;
+}
+
+.searchCity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.locationIcon {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.searchIcon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.weatherBlockChild { 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #c5eefca6, #8dd1f1b6, #f6b5d67c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* color: white; */
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.150);
+    transition: all ease 0.5s;
+    border-radius: 15px;
+}
+
+.weatherIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white ;
+}
+
+.weatherIcon img {
+    width: 150px;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.2));
+}
+
+
+.weatherIcon p {
+    font-size: 30px;
+}
+
+
+.weatherBlockChild div h2 {
+    font-size: 40px;
+}
+
+
+.weatherInfoBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherInfo p {
+    font-size: larger;
+}
